@@ -1,0 +1,383 @@
+body {
+}
+.top {
+    background-color: #eee;
+    height: 600px;
+    overflow: hidden;
+        background-image: url(../images/99999.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    
+}
+.header .top .container .intro  {
+    margin: 0 auto;
+    height: 600px;
+    padding-top: 200px;
+    color: #fff ;
+    width: 600px;
+}
+.header .top .container .intro .opo   {
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 0 ;
+    border-bottom: 4px solid black ;
+    border-top: 4px solid black ;
+    color: #ff0000;
+    
+}
+
+.nav {
+    color: #fff;
+    background-color: #282b2b;
+    overflow: hidden;
+    height: 48px;
+}
+.h2 {
+  
+    margin: 7px 19px 20px 22px;
+    font-size: 28px;
+
+}
+
+.nav  h2 { 
+float: left;
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+.nav ul span { 
+color:#ff9337;
+    overflow: hidden;
+}
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.nav ul li {
+    float: right;
+    padding: 10px;
+    
+}
+.nav ul li {
+font-size: 17px;
+    
+}
+.nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    
+}
+.nav ul li a:hover {
+    
+
+   color: #ff9337;
+}
+.nav ul li a:link:active, a:visited:active{
+    
+
+   color: #ff9337;
+}
+
+.container {
+    margin: auto;
+   width: 830px;
+    
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+
+
+/* Start About Me */
+
+.about-me {
+    background-color: #F2F2F2; 
+    overflow: hidden
+}
+
+.about-me .image {
+    float: left;
+    width: 40%
+}
+.about-me .image img {
+    width: 100%;
+            height: 467px;
+
+}
+
+.about-me .info {
+    float: left;
+    width: 60%
+}
+
+.about-me .info h2 {
+    margin: 20px 0 20px 40px;
+    color: #272C31
+    
+    
+}
+
+.about-me .info > p {
+    margin: 0 0 10px 40px;
+   
+}
+
+.about-me .info > p:last-of-type {
+    margin-top: 20px;
+   
+}
+
+.about-me .info p {
+    line-height: 1.5;
+    color: #3A3F43 ;
+    font-size: 17px;
+}
+
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 15px 0 0 40px
+}
+
+
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px; 
+    overflow: hidden
+}
+
+.about-me .info .hobbies .content h3{
+    color: #272C31
+}
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 5%
+    
+}
+
+.about-me .info .hobbies .content .icon img {
+   max-width: 100%;
+   margin: 20px 10px 0 0
+    
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 83%
+    
+}
+
+/* End About Me */
+
+/* start My Skills */
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden
+    
+}
+.my-skills .skills,
+.my-skills .progress {
+    width: 50%;
+    float: left
+}
+
+
+.my-skills .skills h2 {
+    margin: 20px 0 20px 40px;
+    color: #272C31    
+}
+
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+    color: #3A3F43
+}
+
+.my-skills .skills p:last-of-type {
+    margin-top: 20px;  
+}
+
+.my-skills .skills button {
+
+    margin-top: 20px;
+    margin-left: 40px
+    
+}
+
+.my-skills .progress .tec {
+  margin-left: 50px  
+
+}
+
+.my-skills .progress .tec h3 {
+    color: #3A3F43
+}
+
+.my-skills .progress .tec div {
+    background-color: #F2F2F2;
+    height: 25px;
+    
+} 
+
+.my-skills .progress .tec div span {
+    background-color: #ff9337;                              
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold
+}
+
+/* End My Skills */
+
+
+
+/* Start Contact Me */
+
+.contact {
+    background-color: #272C31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+    
+}
+.contact .info{
+    width: 50%;
+    margin-right: 5%;
+    float: left
+}
+
+.contact h2 {
+    color: #FFF;
+    margin-left: 40px
+    
+}
+.contact p {
+    color: #9999A1;
+    margin-left: 40px;
+    line-height: 1.7
+}
+.contact p strong {
+    color:#D1D6DA;
+}
+
+
+.contact .form {
+    width: 45%;
+    float: left
+}
+
+.contact .form label {
+    display: block;
+    color:#D1D6DA;
+    margin: 10px 0;    
+}
+
+.contact .form input[type="text"] {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 90%;
+    margin-bottom: 10px
+}
+.contact .form input[type="email"] {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 90%;
+    margin-bottom: 10px
+}
+
+.contact .form textarea  {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 90%;
+    margin-bottom: 10px;
+    height: 300px
+}
+
+.contact .form input[type="submit"] {
+    background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px
+}
+
+
+
+/* End Contact Me */
+
+
+/* Start Footer */
+
+.footer {
+    background-color: #121417;
+    color: #71767D;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden ; 
+    height: 20px;
+}
+
+.footer span {
+    float: left
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right
+}
+
+.footer ul li {
+    display: inline-block;
+    
+    
+}
+
+.footer ul li img {
+    width: 27px
+        ;
+    margin: 2px;
+    padding: 2px;
+    margin-top: -7px;
+}
+.footer ul li img:hover {
+   color: blue;
+}
+
+
+/* End Footer */
+
+
+.footer {
+    background-color: #191e22;
+ color: #6a6e71;
+    padding: 19px 0 19px 0px ;
+    text-align: center;
+}
+
+
+ 
